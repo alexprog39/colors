@@ -12,7 +12,6 @@ body {
 .col {
    flex: 1;
    display: flex;
-   background: darkred;
    flex-direction: column;
    justify-content: space-around;
     align-items: center;
@@ -29,6 +28,7 @@ body {
 }
 
 .col button {
+    outline: none;
     border: none;
     background: transparent;
     font-size: 1.5rem;
@@ -38,6 +38,7 @@ body {
     transition: .3s;
 }
 .col button:hover {
+    outline: none;
     background-color: rgba(0,0,0,0.1);
     cursor: pointer; 
 }
